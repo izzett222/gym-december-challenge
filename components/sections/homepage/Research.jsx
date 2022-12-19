@@ -1,5 +1,6 @@
 import ResearchCard from "../../ui/ResearchCard";
 import research1 from "/public/images/research1.webp";
+import research2 from "/public/images/research2.webp";
 
 export default function Research() {
   return (
@@ -14,10 +15,14 @@ export default function Research() {
         buttonText={"Read more"}
       />
       <div className="mt-24">
-        <h2 className="mb-12 text-[#072140] text-[32px] font-bold">TUM in numbers</h2>
+        <h2 className="mb-12 text-[#072140] text-[32px] font-bold">
+          TUM in numbers
+        </h2>
         <div className="grid text-[#072140] gap-y-6 md:grid-cols-3 gap-x-6 lg:grid-cols-2">
           <div className="bg-[#3070b3] p-5 flex flex-col items-center">
-            <p className="font-bold text-white text-[4.25rem] lg:text-[130px]">50,000</p>
+            <p className="font-bold text-white text-[4.25rem] lg:text-[130px]">
+              50,000
+            </p>
             <span className="text-xl text-white ">Students</span>
           </div>
           <div className="bg-[#f7b11e] p-5 flex-col items-center flex lg:hidden">
@@ -43,6 +48,31 @@ export default function Research() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="mt-24">
+        <ResearchCard
+          src={research2}
+          title="Schools and Research Centers"
+          description="They form the academic foundation of TUM: Our schools and departments, connected at disciplinary interfaces by integrative research institutes to create an organization that drives innovation. "
+          bg={"bg-[#8f81ea]"}
+          buttonTextColor={"text-white"}
+          buttonbg={"bg-[#3070b3]"}
+          buttonText={"Organization"}
+          textColor={"text-[#072140]"}
+        />
+      </div>
+      <div className="mt-24">
+        <ResearchCard
+          src={research2}
+          title="Schools and Research Centers"
+          description="They form the academic foundation of TUM: Our schools and departments, connected at disciplinary interfaces by integrative research institutes to create an organization that drives innovation. "
+          bg={"bg-[#8f81ea]"}
+          buttonTextColor={"text-white"}
+          buttonbg={"bg-[#3070b3]"}
+          buttonText={"Organization"}
+          textColor={"text-[#072140]"}
+          reverse
+        />
       </div>
     </div>
   );
