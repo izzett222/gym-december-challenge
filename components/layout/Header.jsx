@@ -27,25 +27,25 @@ export default function Header() {
         <div className="flex items-center">
           <ul className="xl:flex gap-6 mr-13.5 hidden">
             <li>
-              <MenuLink href="/">news and events</MenuLink>
+              <MenuLink href="/news">news and events</MenuLink>
             </li>
             <li>
-              <MenuLink href="/">studies</MenuLink>
+              <MenuLink href="/studies">studies</MenuLink>
             </li>
             <li>
-              <MenuLink href="/">lifelong learning</MenuLink>
+              <MenuLink href="/learning">lifelong learning</MenuLink>
             </li>
             <li>
-              <MenuLink href="/">research</MenuLink>
+              <MenuLink href="/research">research</MenuLink>
             </li>
             <li>
-              <MenuLink href="/">innovation</MenuLink>
+              <MenuLink href="/innovation">innovation</MenuLink>
             </li>
             <li>
-              <MenuLink href="/">community</MenuLink>
+              <MenuLink href="/community">community</MenuLink>
             </li>
             <li>
-              <MenuLink href="/">about tum</MenuLink>
+              <MenuLink href="/about">about tum</MenuLink>
             </li>
           </ul>
           <div className="flex items-center">
