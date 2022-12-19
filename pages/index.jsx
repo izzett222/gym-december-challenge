@@ -1,13 +1,16 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
-import styles from '../styles/Home.module.css'
-
-const inter = Inter({ subsets: ['latin'] })
+import Header from "../components/layout/Header";
+import Hero from "../components/sections/homepage/Hero";
+import News from "../components/sections/homepage/News";
+import Offers from "../components/sections/homepage/Offers";
 
 export default function Home() {
   return (
-    <h1 className='text-3xl text-red-300'>IN PROGRESS</h1>
+    <>
+      <Header />
+      <Hero />
+      <News />
+      <Offers />
+    </>
     
   )
 }
