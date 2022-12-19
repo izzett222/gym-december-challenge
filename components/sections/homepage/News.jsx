@@ -1,6 +1,9 @@
 import Button from "../../ui/Button";
 import NewsCard from "../../ui/NewsCard";
 import news1 from "/public/images/news1.jpeg";
+import news2 from "/public/images/news1.jpeg";
+import news3 from "/public/images/news1.jpeg";
+import news4 from "/public/images/news1.jpeg";
 
 export default function News() {
   return (
@@ -28,13 +31,13 @@ export default function News() {
               description="TUM has retained its ranking as Germany’s strongest research university in business sciences. The latest issue of the..."
             />
             <NewsCard
-              src={news1}
-              tag="News"
+              src={news2}
+              tag="Research"
               date={"12/06/2022"}
               readingTime={"reading time 2 min"}
-              header="Germany's strongest university in business sciences"
-              subheader="WirtschaftsWoche rankings"
-              description="TUM has retained its ranking as Germany’s strongest research university in business sciences. The latest issue of the..."
+              header="Antihelium nuclei as messengers from the depths of the galaxy"
+              subheader="Search for dark matter"
+              description="How are galaxies born, and what holds them together? Astronomers assume that dark matter plays an essential role. However,"
             />
           </div>
         </div>
