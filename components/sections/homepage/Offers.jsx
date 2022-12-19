@@ -1,5 +1,7 @@
+import Image from "next/image";
 import Button from "../../ui/Button";
-
+import downArrow from "/public/icons/downarrow.svg";
+import rightArrow from "/public/icons/rightarrow.svg";
 export default function Offers() {
   return (
     <div className="mt-12 px-6 max-w-main mx-auto">
@@ -55,8 +57,15 @@ export default function Offers() {
             <Button secondary>Learn more</Button>
           </div>
         </div>
-        <div>
-            
+        <div className="flex flex-col">
+            <div className="bg-[#e8ecef] px-5 border-b-primary border flex mt-12">
+                <p className="text-base text-[#303030] opacity-80 py-5 font-semibold flex-1">Select degree program or enter keyword</p>
+                <Image src={downArrow} alt="open" />
+            </div>
+            <div className="w-full flex justify-end mt-2 text-dark-blue-100">
+                <p>degree program</p>
+                <Image src={rightArrow} alt="open" />
+            </div>
         </div>
       </div>
     </div>
